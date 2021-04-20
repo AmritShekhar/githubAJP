@@ -8,7 +8,7 @@ public class Server {
            
 
            try {
-              ServerSocket ss1 = new ServerSocket(8080);
+              ServerSocket ss1 = new ServerSocket(1000);
               System.out.println("Server ready to accept request");
               Socket s1 = ss1.accept();
   
